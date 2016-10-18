@@ -97,17 +97,8 @@
 }
 
 
-
 - (void)showWatermark {
-    if (_playerVC.contentOverlayView.subviews.count == 0) {
-        
-        UILabel *waterMarkLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 150, 200, 70)];
-        waterMarkLabel.text = @"PFT Copyright Overlay View";
-        [waterMarkLabel sizeToFit];
-        waterMarkLabel.textColor = [UIColor whiteColor];
-        [_playerVC.contentOverlayView addSubview:waterMarkLabel];
-        [self.playerContainerView bringSubviewToFront:_waterMarkLbl];
-    }
+    [self.playerContainerView bringSubviewToFront:_waterMarkLbl];
 }
 
 
