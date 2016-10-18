@@ -135,25 +135,11 @@
                                             <action selector="playPauseAction:" destination="cUC-wU-lCH" eventType="touchUpInside" id="tHX-wL-Ebf"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hef-9d-OgU">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="hla-B0-i4Y"/>
-                                            <constraint firstAttribute="width" constant="76" id="uT2-ls-O6l"/>
-                                        </constraints>
-                                        <state key="normal" title="Full Screen">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="goToFullScreen:" destination="cUC-wU-lCH" eventType="touchUpInside" id="MHV-lU-pdL"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98546794039999996" green="0.21130502400000001" blue="0.44460085659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="cHB-ji-FZB" firstAttribute="top" secondItem="ea4-bl-QBi" secondAttribute="top" constant="14" id="6Vf-5r-fIA"/>
-                                    <constraint firstAttribute="trailing" secondItem="hef-9d-OgU" secondAttribute="trailing" constant="41" id="8R7-GV-30y"/>
                                     <constraint firstItem="cHB-ji-FZB" firstAttribute="leading" secondItem="ea4-bl-QBi" secondAttribute="leading" constant="25" id="UFl-RY-lyJ"/>
-                                    <constraint firstItem="hef-9d-OgU" firstAttribute="top" secondItem="ea4-bl-QBi" secondAttribute="top" constant="16" id="ZEp-vk-D43"/>
                                     <constraint firstAttribute="height" constant="59" id="sYM-0L-xWf"/>
                                 </constraints>
                             </view>
